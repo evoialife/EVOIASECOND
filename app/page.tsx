@@ -3,6 +3,7 @@ import StatsStrip from "./components/StatsStrip";
 import PhilosophySection from "./components/PhilosophySection";
 import PillarsGrid from "./components/PillarsGrid";
 import HowItWorksSection from "./components/HowItWorksSection";
+import CollageSection from "./components/CollageSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <PhilosophySection />
       <PillarsGrid />
       <HowItWorksSection />
+      <CollageSection />
     </main>
   );
 }
