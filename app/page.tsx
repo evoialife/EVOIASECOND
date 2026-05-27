@@ -6,6 +6,7 @@ import HowItWorksSection from "./components/HowItWorksSection";
 import CollageSection from "./components/CollageSection";
 import TestimonialSection from "./components/TestimonialSection";
 import FinalCTA from "./components/FinalCTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CollageSection />
       <TestimonialSection />
       <FinalCTA />
+      <Footer />
     </main>
   );
 }
