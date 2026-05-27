@@ -4,6 +4,7 @@ import PhilosophySection from "./components/PhilosophySection";
 import PillarsGrid from "./components/PillarsGrid";
 import HowItWorksSection from "./components/HowItWorksSection";
 import CollageSection from "./components/CollageSection";
+import TestimonialSection from "./components/TestimonialSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PillarsGrid />
       <HowItWorksSection />
       <CollageSection />
+      <TestimonialSection />
     </main>
   );
 }
