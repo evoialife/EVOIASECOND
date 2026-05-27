@@ -5,6 +5,7 @@ import PillarsGrid from "./components/PillarsGrid";
 import HowItWorksSection from "./components/HowItWorksSection";
 import CollageSection from "./components/CollageSection";
 import TestimonialSection from "./components/TestimonialSection";
+import FinalCTA from "./components/FinalCTA";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorksSection />
       <CollageSection />
       <TestimonialSection />
+      <FinalCTA />
     </main>
   );
 }
