@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AnnouncementBar from "./components/AnnouncementBar";
+import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="id" className="bg-[#FFFEE8]">
       <body className="min-h-full flex flex-col antialiased">
         <AnnouncementBar />
+        <Navbar />
         {children}
       </body>
     </html>
